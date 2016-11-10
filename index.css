@@ -3,15 +3,32 @@ body {
     margin: auto;
     max-width: 4000px;
 }
-.header {
+.header, .header2, .header3, .header4 {
     min-height: 600px;
+    background-position: center;
+    width: 100%;
+}
+.header {
     padding-left: 5%;
     padding-right: 5%;
-    background-image: url("img/head.jpg");
-    background-position: center;
-    text-align: right;
     display: table;
-    width: 100%;
+    background-image: url("img/head.jpg");
+    text-align: right;
+}
+.header2 {
+    background-image: url("img/head2.jpg");
+    text-align: center;
+    position: relative;
+}
+.header3 {
+    background-image: url("img/head3.jpg");
+    text-align: center;
+    position: relative;
+}
+.header4 {
+    background-image: url("img/head3.jpg");
+    text-align: center;
+    position: relative;
 }
 h1.studio {
     font-size: 400%;
@@ -56,4 +73,32 @@ h1.tamburin {
 }
 .nowrap {
     display: inline-block;
+}
+.linkrow {
+    margin: 0.7ex;
+}
+.top {
+    position: absolute;
+    top: 10%;
+}
+.right {
+    position: absolute;
+    right: 10%;
+}
+.bottom {
+    position: absolute;
+    bottom: 10%;
+}
+.center {
+    width: 100%;
+    text-align: center;
+}
+.sep {
+    height: 0px;
+    width: 50%;
+    border-top: 1px solid black;
+    margin-bottom: 10px;
+}
+.prep {
+    padding-top: 10px;
 }
