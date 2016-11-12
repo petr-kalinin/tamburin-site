@@ -102,3 +102,7 @@ h1.tamburin {
 .i {
     font-style: italic;
 }
+#map {
+    width: 100%;
+    height: 400px;
+}

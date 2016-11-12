@@ -9,6 +9,8 @@ html(lang="ru")
         meta(name="viewport", content="width=device-width, initial-scale=1")
         script(src="https://code.jquery.com/jquery-3.1.1.min.js")
         script(src="js/bootstrap.min.js")
+        script(src="http://maps.api.2gis.ru/2.0/loader.js?pkg=full")
+        script(src="2gis.js")
     body
         nav.navbar.navbar-default
             .container
@@ -171,7 +173,7 @@ html(lang="ru")
                     .center
                         h3 Второй ребенок
                         p Скидки на обучение второго и следующих детей
-        include ./2gis.html
+        #map
         h2.center Контакты
         .container-fluid.linkrow
             .row
