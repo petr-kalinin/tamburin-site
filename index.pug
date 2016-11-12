@@ -4,10 +4,11 @@ html(lang="ru")
         title Студия танца Тамбурин
         meta(charset="UTF-8")
         link(rel="stylesheet", href="index.css")
-        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+        link(rel="stylesheet", href="css/bootstrap.min.css")
+        link(rel="stylesheet", href="css/bootstrap-theme.min.css")
         meta(name="viewport", content="width=device-width, initial-scale=1")
         script(src="https://code.jquery.com/jquery-3.1.1.min.js")
-        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+        script(src="js/bootstrap.min.js")
     body
         nav.navbar.navbar-default
             .container
@@ -17,10 +18,10 @@ html(lang="ru")
                         span.icon-bar
                         span.icon-bar
                         span.icon-bar
-                    a.navbar-brand(href="#") Тамбурин
+                    a.navbar-text(href="#") Тамбурин
                 .collapse.navbar-collapse#navbar-collapse
                     p.navbar-text +7-904-917-14-15
-                    a.navbar-text(href="https://vk.com/tamburin_dance") https://vk.com/tamburin_dance
+                    a.navbar-text(href="https://vk.com/tamburin_dance") vk.com/tamburin_dance
         .header
             .header-cell
                 .header-text
@@ -35,12 +36,13 @@ html(lang="ru")
             .container-fluid.linkrow
                 .row
                     .col-sm-4
-                        a.btn.btn-default.btn-block(href="#",role="button") О нас
+                        a.btn.btn-default.btn-block(href="#aboutus",role="button") О нас
                     .col-sm-4
-                        a.btn.btn-default.btn-block(href="#",role="button") Расписание
+                        a.btn.btn-default.btn-block(href="#schedule",role="button") Расписание
                     .col-sm-4
-                        a.btn.btn-default.btn-block(href="#",role="button") Цены
+                        a.btn.btn-default.btn-block(href="#price",role="button") Цены
         .container-fluid
+            a(name="aboutus")
             h2 Классическая хореография 
                 small для детей и взрослых
             .row
@@ -57,6 +59,7 @@ html(lang="ru")
             .bottom.center
                 button.btn.btn-danger.btn-lg(type="button") Записаться в группу
         h2.center Преподаватели и группы
+        a(name="schedule")
         .container-fluid.linkrow
             .row
                 .col-sm-4
@@ -109,6 +112,7 @@ html(lang="ru")
             .bottom.center
                 button.btn.btn-danger.btn-lg(type="button") Записаться в группу
         h2.center Цены
+        a(name="price")
         .container-fluid.linkrow
             .row
                 .col-sm-4
@@ -159,7 +163,7 @@ html(lang="ru")
                         p +7-904-917-14-15 (Светлана)
                 .col-sm-4
                     .center
-                        a(href="https://vk.com/tamburin_dance") https://vk.com/tamburin_dance
+                        a(href="https://vk.com/tamburin_dance") vk.com/tamburin_dance
                 .col-sm-4
                     .center
                         p 
