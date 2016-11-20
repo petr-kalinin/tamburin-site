@@ -1,8 +1,11 @@
 body {
-    padding: auto;
-    margin: auto;
-    max-width: 1280px;
     color: #000044 !important;
+    background-color: #ddeeff !important;
+}
+.content {
+    max-width: 1280px;
+    margin: auto;
+    background-color: white !important;
 }
 h2 {
     font-weight: bold !important;
@@ -42,7 +45,7 @@ h2 {
 }
 .header2 {
     background-position: center;
-    min-height: 796px;
+    min-height: 694px;
     background-image: url("img/head2.jpg");
     text-align: center;
     position: relative;
@@ -87,6 +90,7 @@ h1.tamburin {
 }
 .slogan {
     font-style: italic;
+    font-size: 150%;
 }
 .forall {
     font-weight: bold;
@@ -112,15 +116,15 @@ h3 {
 }
 .top {
     position: absolute;
-    top: 10%;
+    top: 2ex;
 }
 .right {
     position: absolute;
-    right: 10%;
+    right: 2ex;
 }
 .bottom {
     position: absolute;
-    bottom: 3ex;
+    bottom: 2ex;
 }
 .center {
     width: 100%;

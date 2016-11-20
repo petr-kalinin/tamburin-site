@@ -12,163 +12,163 @@ html(lang="ru")
         script(src="http://maps.api.2gis.ru/2.0/loader.js?pkg=full")
         script(src="2gis.js")
     body
-        // TODO: все центрировать
-        // TODO: на фон
-        .header
-            .logo.hidden-xs
-                img(src="img/logo.png")
-            .header-top
-                h1.tamburin Тамбурин
-                h1.studio студия танца
-                h3.forall
-                    | для детей 
-                    br
-                    | и взрослых
-            .header-bottom
-                button.btn.btn-primary.btn-lg(type="button") Записаться в группу
-                .phone
-                    | Телефон: +7-904-917-14-15
-        .container-fluid.highlight
-            a(name="aboutus")
-            h2.center Классическая хореография 
-            // TODO: поля
-            p
-                | Вы заботитесь о развитии своего ребенка? Хотите, чтобы у него было хорошая осанка, прекрасная фигура и умение выступать на сцене? А может быть, Вы сами мечтаете о балете? Даже взрослый человек может танцевать! Наша студия классического танца проводит занятия для детей и взрослых!   
-            .row.bold.points
-                .col-sm-6.center
-                    p Обучаем взрослых с нуля
-                    p Детские группы от 5 до 12 лет
-                    p Мастерклассы с артистами балета
-                .col-sm-6.center
-                    p Постановка номеров, выступления
-                    p Программа «мама + дочка»
-                    p Прокат балетных костюмов
-        // обрезать фотографию
-        .header2
-            .slogan.right.top Гибкость и правильная осанка
-            .bottom.center
-                button.btn.btn-danger.btn-lg(type="button") Записаться в группу
-        h2.center.highlight Преподаватели и группы
-        a(name="schedule")
-        .container-fluid.linkrow.highlight
-            .row
-                .col-sm-4
-                    img.img-circle.center-block.prep.photo(src="img/olga.jpg")
-                    h3.center Ольга Вадимова
-                    .center
-                        p Преподаватель группы растяжки
-                        p
-                            span.glyphicon.glyphicon-menu-down
-                        p.subject Растяжка
-                        p Пятница, 
-                            span.nowrap 18.30 — 19.30
-                .col-sm-4
-                    img.img-circle.center-block.prep.photo(src="img/svetlana.jpg")
-                    h3.center Светлана Калинина
-                    .center
-                        p Руководитель студии
-                        p Преподаватель взрослых групп
-                        p
-                            span.glyphicon.glyphicon-menu-down
-                        p.subject Станок для начинающих
-                        p Суббота, 
-                            span.nowrap 18.30 — 19.30
-                        .sep.center-block
-                        p.subject Классическая хореография
-                        p Воскресенье, 
-                            span.nowrap 14.00 — 16.00
-                .col-sm-4
-                    img.img-circle.center-block.prep.photo(src="img/anna.jpg")
-                    h3.center Анна Иконникова
-                    .center
-                        p Преподаватель детских групп
-                        p Балерина Нижегородского театра оперы и балета
-                        p
-                            span.glyphicon.glyphicon-menu-down
-                        p.subject 5 — 7 лет
-                        p Понедельник, 
-                            span.nowrap 15.00 — 16.00
-                        p Пятница, 
-                            span.nowrap 15.00 — 16.00
-                        .sep.center-block
-                        p.subject 8 — 12 лет
-                        p Понедельник, 
-                            span.nowrap 16.00 — 17.00
-                        p Пятница, 
-                            span.nowrap 16.00 — 17.00
-        .header3
-            h2 Не определились с группой?
-            h3 Звоните: +7-904-917-14-15
-            .bottom.center
-                button.btn.btn-primary.btn-lg(type="button") Записаться в группу
-        h2.center.highlight Цены
-        a(name="price")
-        .container-fluid.linkrow.highlight
-            .row
-                .col-sm-4
-                    .center
-                        h3 Растяжка
-                        p 
-                            span.lead 150 
-                            span.small.text-muted / 200* 
-                            br
-                            span.nowrap &#32;рублей/занятие
-                .col-sm-4
-                    .center
-                        h3 Станок для начинающих
-                        p 
-                            span.lead 150 
-                            span.small.text-muted / 200* 
-                            br 
-                            span рублей/занятие
-                        .sep.center-block
-                        h3 Классическая хореография
-                        p 
-                            span.lead 300 
-                            span.small.text-muted / 400* 
-                            br 
-                            span рублей/занятие
-                .col-sm-4
-                    .center
-                        h3 Детские группы
-                        p 
-                            sman.lead 350 
-                            span.small.text-muted / 450* 
-                            br
-                            span рублей/занятие
-        p.center.small.highlight * 
-            span.nowrap Первая цена действует при оплате сразу за все занятия месяца (абонемент). 
-            | 
-            span.nowrap Вторая цена действует при оплате за каждое занятие отдельно.
-        h2.center.highlight Акции
-        .container-fluid.linkrow.highlight
-            .row
-                .col-sm-6
-                    .center
-                        h3 Мама + дочка
-                        p При обучении детей для родителей скидки
-                .col-sm-6
-                    .center
-                        h3 Второй ребенок
-                        p Скидки на обучение второго и следующих детей
-        #map
-        h2.center.highlight Контакты
-        .container-fluid.linkrow.highlight
-            .row
-                .col-sm-4
-                    .center
-                        p +7-904-917-14-15 (Светлана)
-                .col-sm-4
-                    .center
-                        a(href="https://vk.com/tamburin_dance") vk.com/tamburin_dance
-                .col-sm-4
-                    .center
-                        p 
-                            | ул. Варварская, 32 (Нижполиграф)
-                            br
-                            | 2 этаж, правое крыло
-        .header4
-            .top.center
-                button.btn.btn-primary.btn-lg(type="button") Записаться в группу
+        .content
+            .header
+                .logo.hidden-xs
+                    img(src="img/logo.png")
+                .header-top
+                    h1.tamburin Тамбурин
+                    h1.studio студия танца
+                    h3.forall
+                        | для детей 
+                        br
+                        | и взрослых
+                .header-bottom
+                    button.btn.btn-primary.btn-lg(type="button") Записаться в группу
+                    .phone
+                        | Телефон: +7-904-917-14-15
+            .container-fluid.highlight
+                a(name="aboutus")
+                h2.center Классическая хореография 
+                // TODO: поля
+                p
+                    | Вы заботитесь о развитии своего ребенка? Хотите, чтобы у него было хорошая осанка, прекрасная фигура и умение выступать на сцене? А может быть, Вы сами мечтаете о балете? Даже взрослый человек может танцевать! Наша студия классического танца проводит занятия для детей и взрослых!   
+                .row.bold.points
+                    .col-sm-6.center
+                        p Обучаем взрослых с нуля
+                        p Детские группы от 5 до 12 лет
+                        p Мастерклассы с артистами балета
+                    .col-sm-6.center
+                        p Постановка номеров, выступления
+                        p Программа «мама + дочка»
+                        p Прокат балетных костюмов
+            // обрезать фотографию
+            .header2
+                .slogan.right.top Гибкость и правильная осанка
+                .bottom.center
+                    button.btn.btn-primary.btn-lg(type="button") Записаться в группу
+            h2.center.highlight Преподаватели и группы
+            a(name="schedule")
+            .container-fluid.linkrow.highlight
+                .row
+                    .col-sm-4
+                        img.img-circle.center-block.prep.photo(src="img/olga.jpg")
+                        h3.center Ольга Вадимова
+                        .center
+                            p Преподаватель группы растяжки
+                            p
+                                span.glyphicon.glyphicon-menu-down
+                            p.subject Растяжка
+                            p Пятница, 
+                                span.nowrap 18.30 — 19.30
+                    .col-sm-4
+                        img.img-circle.center-block.prep.photo(src="img/svetlana.jpg")
+                        h3.center Светлана Калинина
+                        .center
+                            p Руководитель студии
+                            p Преподаватель взрослых групп
+                            p
+                                span.glyphicon.glyphicon-menu-down
+                            p.subject Станок для начинающих
+                            p Суббота, 
+                                span.nowrap 18.30 — 19.30
+                            .sep.center-block
+                            p.subject Классическая хореография
+                            p Воскресенье, 
+                                span.nowrap 14.00 — 16.00
+                    .col-sm-4
+                        img.img-circle.center-block.prep.photo(src="img/anna.jpg")
+                        h3.center Анна Иконникова
+                        .center
+                            p Преподаватель детских групп
+                            p Балерина Нижегородского театра оперы и балета
+                            p
+                                span.glyphicon.glyphicon-menu-down
+                            p.subject 5 — 7 лет
+                            p Понедельник, 
+                                span.nowrap 15.00 — 16.00
+                            p Пятница, 
+                                span.nowrap 15.00 — 16.00
+                            .sep.center-block
+                            p.subject 8 — 12 лет
+                            p Понедельник, 
+                                span.nowrap 16.00 — 17.00
+                            p Пятница, 
+                                span.nowrap 16.00 — 17.00
+            .header3
+                h2 Не определились с группой?
+                h3 Звоните: +7-904-917-14-15
+                .bottom.center
+                    button.btn.btn-primary.btn-lg(type="button") Записаться в группу
+            h2.center.highlight Цены
+            a(name="price")
+            .container-fluid.linkrow.highlight
+                .row
+                    .col-sm-4
+                        .center
+                            h3 Растяжка
+                            p 
+                                span.lead 150 
+                                span.small.text-muted / 200* 
+                                br
+                                span.nowrap &#32;рублей/занятие
+                    .col-sm-4
+                        .center
+                            h3 Станок для начинающих
+                            p 
+                                span.lead 150 
+                                span.small.text-muted / 200* 
+                                br 
+                                span рублей/занятие
+                            .sep.center-block.hidden-xs
+                            h3 Классическая хореография
+                            p 
+                                span.lead 300 
+                                span.small.text-muted / 400* 
+                                br 
+                                span рублей/занятие
+                    .col-sm-4
+                        .center
+                            h3 Детские группы
+                            p 
+                                sman.lead 350 
+                                span.small.text-muted / 450* 
+                                br
+                                span рублей/занятие
+            p.center.small.highlight * 
+                span.nowrap Первая цена действует при оплате сразу за все занятия месяца (абонемент). 
+                | 
+                span.nowrap Вторая цена действует при оплате за каждое занятие отдельно.
+            h2.center.highlight Акции
+            .container-fluid.linkrow.highlight
+                .row
+                    .col-sm-6
+                        .center
+                            h3 Мама + дочка
+                            p При обучении детей для родителей скидки
+                    .col-sm-6
+                        .center
+                            h3 Второй ребенок
+                            p Скидки на обучение второго и следующих детей
+            #map
+            h2.center.highlight Контакты
+            .container-fluid.linkrow.highlight
+                .row
+                    .col-sm-4
+                        .center
+                            p +7-904-917-14-15 (Светлана)
+                    .col-sm-4
+                        .center
+                            a(href="https://vk.com/tamburin_dance") vk.com/tamburin_dance
+                    .col-sm-4
+                        .center
+                            p 
+                                | ул. Варварская, 32 (Нижполиграф)
+                                br
+                                | 2 этаж, правое крыло
+            .header4
+                .top.center
+                    button.btn.btn-primary.btn-lg(type="button") Записаться в группу
+                .slogan.right.bottom.bold Умение держаться на сцене
 
-        // TODO: счетчик
+            // TODO: счетчик
