@@ -72,9 +72,11 @@ h2 {
     background-image: url("img/head3.jpg");
     text-align: left;
     position: relative;
-    padding-left: 5%;
     padding-top: 5%;
     background-size: cover;
+}
+.header3 h2, .header3 h3 {
+    padding-left: 5%;
 }
 @media (max-width: 767px) {
     .header4 {
