@@ -4,8 +4,10 @@ html(lang="ru")
         title Студия танца Тамбурин, Нижний Новгород
         meta(charset="UTF-8")
         link(rel="stylesheet", href="index.css")
-        link(rel="stylesheet", href="css/bootstrap.min.css")
-        link(rel="stylesheet", href="css/bootstrap-theme.min.css")
+        link(rel="stylesheet", href="css/bootstrap.min.css", media="(min-width: 768px)")
+        link(rel="stylesheet", href="css/bootstrap-theme.min.css", media="(min-width: 768px)")
+        link(rel="stylesheet", href="css-small/bootstrap.min.css", media="(max-width: 767px)")
+        link(rel="stylesheet", href="css-small/bootstrap-theme.min.css", media="(max-width: 767px)")
         meta(name="viewport", content="width=device-width, initial-scale=1")
         script(src="https://code.jquery.com/jquery-3.1.1.min.js")
         script(src="js/bootstrap.min.js")
@@ -32,7 +34,7 @@ html(lang="ru")
                 a(name="aboutus")
                 h2.center Классическая хореография 
                 // TODO: поля
-                .container
+                .intro
                     | Вы заботитесь о развитии своего ребенка? Хотите, чтобы у него было хорошая осанка, прекрасная фигура и умение выступать на сцене? А может быть, Вы сами мечтаете о балете? Даже взрослый человек может танцевать! Наша студия классического танца проводит занятия для детей и взрослых!   
                 .row.bold.points
                     .col-sm-6.center

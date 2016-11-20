@@ -33,6 +33,11 @@ h2 {
 .header, .header2, .header3, .header4 {
     width: 100%;
 }
+@media (max-width: 767px) {
+    .header {
+        min-height: 300px !important;
+    }
+}
 .header {
     min-height: 600px;
     padding-left: 5%;
@@ -43,12 +48,23 @@ h2 {
     color: #000055;
     position: relative;
 }
+@media (max-width: 767px) {
+    .header2 {
+        min-height: 346px !important;
+    }
+}
 .header2 {
     background-position: center;
     min-height: 694px;
     background-image: url("img/head2.jpg");
+    background-size: cover;
     text-align: center;
     position: relative;
+}
+@media (max-width: 767px) {
+    .header3 {
+        min-height: 411px !important;
+    }
 }
 .header3 {
     min-height: 822px;
@@ -58,6 +74,12 @@ h2 {
     position: relative;
     padding-left: 5%;
     padding-top: 5%;
+    background-size: cover;
+}
+@media (max-width: 767px) {
+    .header4 {
+        min-height: 400px !important;
+    }
 }
 .header4 {
     min-height: 800px;
@@ -66,6 +88,7 @@ h2 {
     background-size: auto 800px;
     text-align: center;
     position: relative;
+    background-size: cover;
 }
 h1.studio {
     margin-bottom: 0px;
@@ -103,6 +126,11 @@ h1.tamburin {
 }
 .nowrap {
     display: inline-block;
+}
+@media (max-width: 767px) {
+    .photo {
+        max-width: 150px;
+    }
 }
 .photo {
     width: 50%;
@@ -149,4 +177,10 @@ h3 {
 #map {
     width: 100%;
     height: 400px;
+}
+.intro {
+    padding-top:0.5ex;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1ex;
 }
