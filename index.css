@@ -184,3 +184,7 @@ h3 {
     padding-right: 1em;
     padding-bottom: 1ex;
 }
+a.tel, a.tel:hover, a.tel:visited {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
