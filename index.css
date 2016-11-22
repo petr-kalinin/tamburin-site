@@ -116,6 +116,12 @@ h1.tamburin {
 .slogan {
     font-style: italic;
     font-size: 150%;
+    text-align: right;
+}
+@media (min-width: 767px) {
+    .slogan {
+        max-width: 75%;
+    }
 }
 .forall {
     font-weight: bold;
