@@ -196,3 +196,7 @@ a.tel, a.tel:hover, a.tel:visited {
     color: inherit !important;
     text-decoration: inherit !important;
 }
+.badge-danger {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+}
