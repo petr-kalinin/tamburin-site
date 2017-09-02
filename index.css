@@ -177,6 +177,7 @@ h3 {
 }
 .text-muted {
     color: #997777 !important;
+    font-size: 100%;
 }
 .subject {
     font-style: italic;
