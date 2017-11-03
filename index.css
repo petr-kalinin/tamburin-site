@@ -20,6 +20,12 @@ h2 {
 .highlight {
     color: #550000 !important;
 }
+.attention {
+    color: #cc0000 !important;
+    text-align: left !important;
+    background:rgba(255,255,255,0.5);
+    padding: 10px;
+}
 .phone {
     font-weight: bold;
     padding-top: 0.5ex;
